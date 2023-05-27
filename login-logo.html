@@ -32,33 +32,101 @@
                   lineDashOffset: 0,
                   fill: 'transparent',
                   stroke: '#000',
-                  lineWidth: 1
+                  lineWidth: 3
                 },
                 keyframeAnimation: {           
-                  duration: 3000,
+                  duration: 15000,
                   loop: true,
                   keyframes: [
-                    {
-                      percent: 0.3,
-                      style: {
-                        fill: 'transparent',
-                        lineDashOffset: 200,
-                        lineDash: [200, 0]
-                      }
-                    },
-                    {
-                      // Stop for a while.
-                      percent: 1.8,
-                      style: {
-                        fill: 'transparent'
-                      }
-                    },
-                    {
-                      percent: 1,
-                      style: {
-                        fill: 'RoyalBlue'
-                      }
-                    }
+                      {
+                          percent: 0,
+                          style: {fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200]}
+                      }, {
+                          percent: 0.03,
+                          style: {fill: 'transparent', lineDashOffset: 200, lineDash: [0, 200]}
+                      }, {
+                          percent: 0.10,
+                          style: {fill: 'Royalblue', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.17,
+                          style: {fill: 'Royalblue', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.25,
+                          style: {fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200]}
+                      },
+                      // phase 2
+                      {
+                          percent: 0.28,
+                          style: {fill: 'transparent', lineDashOffset: 200, lineDash: [0, 200]}
+                      }, {
+                          percent: 0.35,
+                          style: {fill: 'Khaki', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.42,
+                          style: {fill: 'Khaki', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.50,
+                          style: {fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200]}
+                      },
+                      // phase 3
+                      {
+                          percent: 0.53,
+                          style: {fill: 'transparent', lineDashOffset: 200, lineDash: [0, 200]}
+                      }, {
+                          percent: 0.60,
+                          style: {fill: 'PaleGreen', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.67,
+                          style: {fill: 'PaleGreen', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.75,
+                          style: {fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200]}
+                      },
+                      //phase 4
+                      {
+                          percent: 0.78,
+                          style: {fill: 'transparent', lineDashOffset: 200, lineDash: [0, 200]}
+                      }, {
+                          percent: 0.85,
+                          style: {fill: 'PaleVioletRed', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 0.92,
+                          style: {fill: 'PaleVioletRed', lineDashOffset: 200, lineDash: [200, 0]}
+                      }, {
+                          percent: 1,
+                          style: {fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200]}
+                      },
+                      // }, {
+                      //   percent: 0.10,
+                      //   style: { fill: 'transparent', lineDashOffset: 0, lineDash: [200, 0]}
+                      // }, {
+                      //   percent: 0.15,
+                      //   style: { fill: 'RoyalBlue', lineDashOffset: 0, lineDash: [200, 0] }
+                      // }, {
+                      //   percent: 0.20,
+                      //   style: { fill: 'RoyalBlue' }
+                      // }, {
+                      //   percent: 0.25,
+                      //   style: { fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200] }
+                      // }, {
+                      //   percent: 0.30,
+                      //   style: { fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200] }
+                      // }, {
+                      //     percent: 0.40,
+                      //     style: {
+                      //         fill: 'Orange', lineDashOffset: 200, lineDash: [200, 0]
+                      //     }
+                      // }, {
+                      //     percent: 0.45,
+                      //     style: {
+                      //         fill: 'Orange', lineDashOffset: 200, lineDash: [200, 0]
+                      //     }
+                      // }, {
+                      //     percent: 0.55,
+                      //     style: {
+                      //         fill: 'transparent', lineDashOffset: 0, lineDash: [0, 200]
+                      //     }
+                      // }
                   ]
                 }
               }
